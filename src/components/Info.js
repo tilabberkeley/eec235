@@ -1,9 +1,13 @@
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 
 const Info = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Navbar current="Info"/>
+
+            <Footer/>
+        </>
     )
 }
 

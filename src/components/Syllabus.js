@@ -1,9 +1,13 @@
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 
 const Syllabus = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Navbar current="Syllabus"/>
+
+            <Footer/>
+        </>
     )
 }
 

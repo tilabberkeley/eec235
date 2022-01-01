@@ -10,3 +10,7 @@
 .navbar-link {
     text-decoration: none;
 }
+
+.active {
+    color: #7F7C82;
+}

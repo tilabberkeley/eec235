@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar"
 import Resources from "./components/Resources"
 import Home from "./components/Home"
 import Info from "./components/Info"
@@ -12,7 +11,6 @@ import {
 const App = () => {
   return (
   <Router>
-    <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/info" element={<Info />}/>
