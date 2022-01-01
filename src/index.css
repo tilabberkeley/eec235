@@ -15,3 +15,11 @@ code {
 .navbar-container {
   text-align: center;
 }
+
+.course-container {
+  padding: 5% 5%;
+}
+
+.alert-container {
+  padding: 0 5%;
+}

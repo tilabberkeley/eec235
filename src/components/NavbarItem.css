@@ -1,0 +1,13 @@
+.main-title {
+    padding-left: 5%;
+    color: #6998AB;
+}
+
+.main-title:hover{
+    color: #1A374D;
+    cursor: pointer;
+}
+
+.navbar-link {
+    text-decoration: none;
+}
