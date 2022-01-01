@@ -1,27 +1,25 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Schedule from "./components/Schedule";
-import Alert from 'react-bootstrap/Alert'
+import Navbar from "./components/Navbar"
+import Resources from "./components/Resources"
+import Home from "./components/Home"
+import Info from "./components/Info"
+import Syllabus from "./components/Syllabus"
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom"
 
 const App = () => {
   return (
-  <>
+  <Router>
     <Navbar/>
-    <div className="course-container">
-      <h1>EE C235: Nanoscale Fabrication</h1>
-      <h5>Instructor: Grigory Tikhomirov</h5>
-      <h5>Lecture: WF 2:30 - 4:00pm</h5>
-    </div>
-
-    <div className="alert-container">
-    <Alert variant={'secondary'}>
-      <h5>Annoucements: </h5>
-      &emsp; No annoucements yet.
-    </Alert>
-    </div>
-    <Schedule/>
-    <Footer/>
-  </>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/info" element={<Info />}/>
+      <Route path="/resources" element={<Resources />}/>
+      <Route path="/syllabus" element={<Syllabus />}/>
+    </Routes>
+  </Router>
   );
 }
 

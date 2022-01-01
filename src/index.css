@@ -13,13 +13,17 @@ code {
 }
 
 .navbar-container {
-  text-align: center;
+  padding: 2% 5%;
 }
 
 .course-container {
-  padding: 5% 5%;
+  padding: 0 5%;
 }
 
 .alert-container {
-  padding: 0 5%;
+  padding: 2% 5%;
+}
+
+.secondary-heading {
+  color: #7F7C82;
 }

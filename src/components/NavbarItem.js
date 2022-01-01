@@ -1,8 +1,11 @@
 import './NavbarItem.css'
+import {
+    Link
+  } from "react-router-dom"
 
 const NavbarItem = ({ text, link, title }) => {
     return (
-           title == 'true' ? <h3><a href={link} className="main-title navbar-link"><strong>{text}</strong></a></h3> : <a className="navbar-link" href={link}>{text}</a>
+           title === 'true' ? <h3><Link to={link} className="main-title navbar-link"><strong>{text}</strong></Link></h3> : <a className="navbar-link" href={link}>{text}</a>
     )
 }
 
