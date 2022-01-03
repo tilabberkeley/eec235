@@ -2,7 +2,6 @@ import Footer from "./Footer"
 import Schedule from "./Schedule"
 import Navbar from "./Navbar"
 import Alert from "react-bootstrap/Alert"
-
 const Home = () => {
     return (
         <>        
@@ -12,7 +11,6 @@ const Home = () => {
             <h5 className="secondary-heading">Instructor: Grigory Tikhomirov</h5>
             <h5 className="secondary-heading">Lecture: WF 2:30 - 4:00pm</h5>
             </div>
-
             <div className="alert-container">
             <Alert variant={'secondary'}>
             <h5>Annoucements: </h5>

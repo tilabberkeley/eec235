@@ -13,10 +13,10 @@ const Footer = () => {
                         <NavbarItem text = 'Resources' link='resources'/>
                     </div>
                     <div className="col md-3 footer-link">
-                        <NavbarItem text='Syllabus' link='syllabus'/>
+                        <NavbarItem text='Piazza' link='#'/>
                     </div>
                     <div className="col md-3 footer-link">
-                        <NavbarItem text='Piazza' link='#'/>
+                        <NavbarItem text='Gradescope' link='#'/>
                     </div>
                 </div>
             </footer>

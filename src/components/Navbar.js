@@ -13,10 +13,10 @@ const Navbar = ({ current }) => {
                 <NavbarItem text = 'Resources' link='resources' selected={current === 'Resources'}/>
             </div>
             <div className="navbar-spacing col-md-1">
-                <NavbarItem text='Syllabus' link='syllabus' selected={current === 'Syllabus'}/>
+                <NavbarItem text='Piazza' link='#'/>
             </div>
             <div className="navbar-spacing col-md-1">
-                <NavbarItem text='Piazza' link='#'/>
+                <NavbarItem text='Gradescope' link='#'/>
             </div>
             
         </div>
