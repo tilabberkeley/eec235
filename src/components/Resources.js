@@ -1,7 +1,7 @@
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import Table from 'react-bootstrap/Table'
-import Book1 from "../assets/book1.jpg"
+import Book1 from "../assets/book1.png"
 import Book2 from "../assets/book2.jpg"
 import Book3 from "../assets/book3.jpg"
 import "./Resources.css"
@@ -22,27 +22,29 @@ const Resources = () => {
                         <Table bordered>
                             <tbody>
                                 <tr>
-                                    
                                     <td><img className="resource-book" src={Book1}/></td>
-                                    <td><a className="a-link" href="https://www.amazon.com/Fabrication-Optimization-Biological-Pharmaceutical-Nanotechnology/dp/0128136294">Nanoscale Fabrication, Optimization, Scale-up and Biological Aspects of Pharmaceutical Nanotechnology 
-                                    </a><br/>
-                                    Author: Alexandru Mihai Grumezescu
-                                    </td>
-                                    <td>Elsevier; 1st edition (December 13, 2017)</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td><img className="resource-book" src={Book2}/></td>
-                                    <td><a className="a-link" href="https://www.amazon.com/Fabrication-Engineering-Nanoscale-Electrical-Computer/dp/0199861226">Fabrication Engineering at the Micro- and Nanoscale</a>
+                                    <td><a target="_blank" className="a-link" href="https://search.library.berkeley.edu/discovery/fulldisplay?docid=alma9914835229506531&context=L&vid=01UCS_BER:UCB&lang=en&adaptor=Local%20Search%20Engine&tab=Default_UCLibrarySearch&query=any,contains,nanoscale%20fabrication&facet=rtype,include,books&facet=tlevel,include,online_resources&offset=0">Fabrication Engineering at the Micro- and Nanoscale</a>
                                     <br/>
-                                    Author: Stephen Campbell
+                                    Author: Stephen A. Campbell
                                     </td>
                                     <td>Oxford University Press; 4th edition (2013)</td>
                                 </tr>
                                 <tr>
+                                    
+                                    <td><img className="resource-book" src={Book2}/></td>
+                                    <td><a target="_blank" className="a-link" href="https://search.library.berkeley.edu/discovery/fulldisplay?docid=alma991085867633606532&context=L&vid=01UCS_BER:UCB&lang=en&adaptor=Local%20Search%20Engine&tab=Default_UCLibrarySearch&query=any,contains,nanoscale%20fabrication&facet=rtype,include,books&facet=tlevel,include,online_resources&offset=0"> Comprehensive nanoscience and technology
+
+                                    </a><br/>
+                                    Authors: David L. Andrews, Gregory D. Scholes and Gary P. Wiederrecht
+                                    </td>
+                                    <td>Elsevier; 1st edition (2011)</td>
+                                    
+                                </tr>
+
+                                <tr>
                                     <td><img className="resource-book" src={Book3}/></td>
-                                    <td><a className="a-link" href="#">Nanoscale Processing</a> <br/>Authors: Sabu Thomas and Preetha Balakrishnan </td>
-                                    <td>Oxford Press (October 22, 2020)</td>
+                                    <td><a target="_blank" className="a-link" href="https://www.taylorfrancis.com/books/mono/10.1201/9781315222561/fundamentals-nanotechnology-gabor-hornyak-john-moore-tibbals-joydeep-dutta">Fundamentals of Nanotechnology</a> <br/>Authors: Gabor L. Hornyak, John J. Moore, H.F. Tibbals, Joydeep Dutta </td>
+                                    <td>Boca Raton, 1st edition (2009)</td>
                                 </tr>
                             </tbody>
                         </Table>
