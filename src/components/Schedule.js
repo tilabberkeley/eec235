@@ -18,7 +18,7 @@ const Schedule = () => {
                 </tr>
                 </thead>
                 <tbody>
-                <ScheduleItem week='1' date='1/19' topic='Overview and Nanofabrication with photons' reading='' assignment=''/>
+                <ScheduleItem week='1' date='1/19' topic='Overview and Nanofabrication with photons' recordingLink='https://www.youtube.com/watch?v=eYpbcWZkglY' reading='' assignment=''/>
                 <ScheduleItem week='1' date='1/21' topic='Nanofabrication with electrons and ions' reading=''/>
                 <ScheduleItem week='2' date='1/26' topic='Nanofabrication with scanning probe' reading=''assignment=''/>
                 <ScheduleItem week='2' date='1/28' topic='Nano-imprint and soft lithography' reading=''/>

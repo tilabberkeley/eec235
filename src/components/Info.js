@@ -26,7 +26,7 @@ const Info = () => {
                     <p>
                     There will be 3 main homework assignments. These assignments will be presented in class. 
                         <ol>
-                            <li><b>Your Project</b> (10 min, 5 slides max)</li>
+                            <li><b>Your Project</b> (5 min, 5 slides max)</li>
                             Tell us about your project and how nanofabrication can help.    
                             <li><b>Paper Presentation</b> (last 5 years, 10 min, 5 slides max)</li>
                             Present a recent paper on a new nanofabrication technique.
