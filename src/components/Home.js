@@ -14,7 +14,7 @@ const Home = () => {
             <div className="alert-container">
             <Alert variant={'secondary'}>
             <h5>Annoucements: </h5>
-            &emsp; No annoucements yet.
+            &emsp; Per university guidelines, the first two weeks of instructions will be conducted remotely. <a target="_blank" href="https://berkeley.zoom.us/j/7181519086">Zoom link</a> for lectures.
             </Alert>
             </div>
             <Schedule/>
