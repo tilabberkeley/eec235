@@ -20,9 +20,9 @@ const Schedule = () => {
                 <tbody>
                 <ScheduleItem week='1' date='1/19' topic='Overview and Nanofabrication with photons' recordingLink='https://www.youtube.com/watch?v=eYpbcWZkglY' reading='' assignment=''/>
                 <ScheduleItem week='1' date='1/21' topic='Nanofabrication with electrons and ions' recordingLink='https://www.youtube.com/watch?v=oibHB90KQAI' reading=''/>
-                <ScheduleItem week='2' date='1/26' topic='Nanofabrication with scanning probe' recordingLink='https://www.youtube.com/watch?v=kbFhRH50Fzo' reading=''assignment=''/>
+                <ScheduleItem week='2' date='1/26' topic='Nanofabrication with scanning probe' recordingLink='https://www.youtube.com/watch?v=kbFhRH50Fzo' reading=''assignment='Project Presentations'/>
                 <ScheduleItem week='2' date='1/28' topic='Nano-imprint and soft lithography' recordingLink='https://www.youtube.com/watch?v=9jNin_cQgXk&feature=youtu.be' reading =''/>
-                <ScheduleItem week='3' date='2/2' topic='Self-assembly with strong bonds' reading='' assignment=''/>
+                <ScheduleItem week='3' date='2/2' topic='Self-assembly with strong bonds' recordingLink="https://youtu.be/6P49dzeX3pw" reading='' assignment='Paper Presentations'/>
                 <ScheduleItem week='3' date='2/4' topic='Self-assembly with weak bonds' reading=''/>
                 <ScheduleItem week='4' date='2/9' topic='Protein and DNA nanotechnology' reading='' assignment=''/>
                 <ScheduleItem week='4' date='2/11' topic='Bionanotechnologies' reading=''/>
