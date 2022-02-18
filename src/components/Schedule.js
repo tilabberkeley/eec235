@@ -26,7 +26,7 @@ const Schedule = () => {
                 <ScheduleItem week='3' date='2/4' topic='Self-assembly with weak bonds' recordingLink='https://youtu.be/kjbU9zWzRx4' reading=''/>
                 <ScheduleItem week='4' date='2/9' topic='Protein and DNA nanotechnology' recordingLink='https://youtu.be/OG_g_CMGfyc' reading='' assignment='Paper Presentations'/>
                 <ScheduleItem week='4' date='2/11' topic='Bionanotechnologies' recordingLink='https://youtu.be/BJYpjf26LuI' reading=''/>
-                <ScheduleItem week='5' date='2/16' topic='Serial methods' reading='' assignment='Nanofabrication Processes'/>
+                <ScheduleItem week='5' date='2/16' topic='Serial methods' reading='' recordingLink='https://youtu.be/262-j5K6m1M' assignment='Nanofabrication Processes'/>
                 <ScheduleItem week='5' date='2/18' topic='Directed Self-Assembly' reading=''/>
                 <ScheduleItem week='6' date='2/23' topic='Precision placement and other techniques' reading='' assignment=''/>
                 <ScheduleItem week='6' date='2/25' topic='Electron and probe microscopies' reading=''/>
